@@ -11,7 +11,7 @@ const productList = []
 
 for (let index = 0; index < 6; index++) {
     const newProduct = {
-        activity: activity[index],
+        activity: activity[index], 
         hour: hour[index],
         week: week[index],
         ima: ima[index],

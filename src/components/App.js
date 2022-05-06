@@ -8,7 +8,7 @@ function App() {
   return (
     <section className='filterable-product-table'>
       <ProfileCard/>
-      <TimeCard list={List}/>
+      <TimeCard list={List} />
     </section>
 
   );
