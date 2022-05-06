@@ -1,0 +1,81 @@
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+
+.profile-card__container{
+    height: 200px;
+    width: 325px;
+    background-color: var(--Dark-blue);
+    border-radius: 8%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px 20px 10px 20px;
+}
+
+.profile-card__container-head{
+    height: 66%;
+    width: 100%;
+    background-color: var(--Blue);
+    border-radius: 8%;
+    display: flex;
+}
+
+.profile-card-top__img {
+    background-image: url(/public/image-jeremy.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin: 28px 30px 20px 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-card-top__datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-card-top__datos span:nth-child(1){
+    color: var(--Pale-Blue);
+    margin-bottom: 2px;
+}
+
+.profile-card-top__datos span:nth-child(2){
+    color: rgba(255, 255, 255, 0.748);
+    font-size: 22px;
+    
+}
+
+.profile-card__container-bottom{
+    background-color: var(--Dark-blue);
+    border-radius: 10%;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-card__container-bottom span:nth-child(1){
+    color: var(--Desaturated-blue);
+}
+
+.profile-card__container-bottom span:nth-child(2){
+    color: white;
+}
+
+.profile-card__container-bottom span:nth-child(3){
+    color: var(--Desaturated-blue);
+}

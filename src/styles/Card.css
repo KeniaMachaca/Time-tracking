@@ -1,0 +1,154 @@
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+
+.card-container{
+    height: 160px;
+    width: 325px;
+    background-color: var(--Light-red);
+    border-radius: 8%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-container__top {
+    height: 40px;
+    width: 100%; 
+    text-align : center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-container__top-img{
+    background-image: url(../images/icon-work.svg);
+    background-size: cover;
+    height: 40px;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.card-container__body{
+    width: 100%; 
+    height: 100%;
+    border-radius:8% ;
+    background-color: var(--Dark-blue);
+    
+}
+
+.card-container__body-top{
+    width: 84%;
+    height: 40%;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 25px 0 25px;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    
+}
+
+.card-container__body-top div:nth-child(1){
+    
+}
+
+.card-container__body-top div:nth-child(2){
+    background-image: url(/public/icon-ellipsis.svg);
+    width: 20px;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+.card-container__body-bottom{
+    width: 84%;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 25px 0 25px;
+    align-items: flex-start;
+    padding-top: 0px;
+}
+
+.card-container__body-bottom span:nth-child(1){
+    font-size: 30px;
+}
+
+.card-container__body-bottom span:nth-child(2){
+    font-size: 15px;
+    padding-top: 10px;
+    color: var(--Pale-Blue);
+}
+
+.ima-wo{
+    background-image: url(/public/icon-work.svg);
+    background-size: cover;
+    height: 40px;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.ima-pl{
+    background-image: url(../images/icon-play.svg);
+    
+}
+
+.ima-st{
+    background-image: url(../images/icon-study.svg);
+}
+
+.ima-ex{
+    background-image: url(../images/icon-exercise.svg);
+}
+
+.ima-so{
+    background-image: url(/public/icon-social.svg);
+}
+
+.ima-se{
+    background-image: url(/public/icon-self-care.svg);
+}
+
+.naranja{
+    background-color: var(--Light-red);
+}
+
+.celeste{
+    background-color: var(--Light-red);
+}
+
+.rojo{
+    background-color: var(--Light-red);
+}
+
+.verde{
+    background-color: var(--Light-red);
+}
+
+.morado{
+    background-color: var(--Light-red);
+}
+
+.amarillo{
+    background-color: var(--Light-red);
+}
+
